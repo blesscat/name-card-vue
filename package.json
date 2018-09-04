@@ -5,13 +5,16 @@
   "author": "blesscat <blesscat@gmail.com>",
   "private": true,
   "scripts": {
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
+  "homepage": "https://github.com/blesscat/name-card-vue",
   "dependencies": {
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "vue-gh-pages": "^1.18.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
