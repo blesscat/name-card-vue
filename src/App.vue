@@ -16,6 +16,7 @@ import Card from '@/components/card'
 import Data from '@/assets/data'
 
 export default {
+  name: 'App',
   components: {
     Card
   },
