@@ -1,2 +1,1 @@
-Take a look the [result page](https://blesscat.github.io/name-card-vue/)
-
+[RESULT PAGE](https://blesscat.github.io/name-card-vue/)
